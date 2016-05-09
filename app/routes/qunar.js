@@ -1,5 +1,6 @@
 ;(function(){
 	'use strict';
+	//wait me~
 	var express = require('express');
 	var router = express.Router();
 	var superagent = require("superagent");
@@ -57,7 +58,7 @@
 					item.at = flightInfo[i].at,
 					item.dd = flightInfo[i].dd,
 					item.dePort = json.airportInfo.out[flightInfo[i].da].full + ' ' + flightInfo[i].t,
-					item.arPort = json.airportInfo.ret[flightInfo[i].aa].full + ' ' + flightInfo[i].arrtower;					
+					item.arPort = json.airportInfo.ret[flightInfo[i].aa].full + ' ' + flightInfo[i].arrtower;
 					resJson.push(item)
 				}
 			res.json(resJson);
