@@ -12,6 +12,7 @@ var qunar = require('./routes/qunar');
 var app = express();
 
 // view engine setup
+// more
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 

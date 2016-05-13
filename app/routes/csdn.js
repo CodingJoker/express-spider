@@ -44,6 +44,10 @@
 				total:$("#blog_rank li:nth-child(1)").text().match(/\d+/)[0]
 			};
 			res.json(data);
+
+			function a (a1,a2){
+
+			}
 		})
 	});
 module.exports = router;
