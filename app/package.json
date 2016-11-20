@@ -17,6 +17,7 @@
     "superagent": "^1.8.3"
   },
   "devDependencies": {
+    "connect-multiparty": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-node-inspector": "^0.1.0",
     "gulp-nodemon": "^2.0.6"

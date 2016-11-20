@@ -1,0 +1,11 @@
+extends layout
+block content
+  form(method='post',action='/img-upload',enctype='multipart/form-data',target='iframe_back')
+    h1 Upload Image
+    fieldset(id='inputs')
+        input(id='username',name='username',type='text',placeholder='Username',autofocus='',required='')
+        input(id='img-file',name='img-file',type='file')
+     fieldset(id='actions')
+        input(type='submit',id='submit',value='Log in')
+
+   iframe(id='iframe_back',name='iframe_back',style='display:none')
